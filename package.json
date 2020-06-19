@@ -12,6 +12,6 @@
     "caesar-salad": "^2.1.0",
     "exif-parser": "^0.1.12",
     "jquery": "^3.5.1",
-    "morsee": "^1.0.6"
+    "morse-code-encoder-and-decoder": "^1.0.2"
   }
 }

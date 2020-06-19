@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Caesar</title>
+		<title>Vigenere</title>
 		<link rel="stylesheet" type="text/css" href="/styles/style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
 	</head>
@@ -14,8 +14,8 @@
 			<div id="app" class="app">
                 <div class="app-window">
                     <div class="options">
-                        <label for="shift">Shift</label>
-                        <input type="number" name="shift" id="shift" value="13" size="4">
+                        <label for="key">Key</label>
+                        <input type="text" name="key" id="key" value="password" size="7">
                     </div>
                     <textarea id="encoded" name="encoded" rows="6" cols="50" placeholder="Encoded text eg. 'cheese'"></textarea>
                     <div class="buttons">
@@ -28,6 +28,6 @@
             </div>
 		</div>
         <script src="/header.js"></script>
-        <script src="caesarBundle.js"></script>
+        <script src="vigenereBundle.js"></script>
 	</body>
 </html>
