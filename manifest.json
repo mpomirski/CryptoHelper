@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 2,
+    "name": "CryptoHelper",
+    "version": "1.0",
+  
+    "description": "Various cryptographic tools",
+    "icons": {
+      "96": "icons/icon.png"
+    },
+
+    "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_title": "CryptoHelper",
+      "default_popup": "index.html"
+    }
+  }
